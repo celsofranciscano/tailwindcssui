@@ -7,5 +7,6 @@ import sitemap from '@astrojs/sitemap';
 // https://celsofranciscano.github.io/tailwindcssui/
 export default defineConfig({
 	site: 'https://celsofranciscano.github.io/tailwindcssui/',
+	base: '/tailwindcssui',
 	integrations: [mdx(), sitemap()],
 });
